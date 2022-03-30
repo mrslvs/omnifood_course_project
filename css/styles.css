@@ -22,13 +22,20 @@ design settings:
 
 :root {
   --primary: #e67e22;
+  --primary_tint_1: #fdf2e9;
   --grey: #555;
+  --grey2: #333;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  /* font size set to 10px (default font size is 16px -> 10/16=0.625 */
+  font-size: 62.5%;
 }
 
 body {
@@ -38,10 +45,80 @@ body {
   color: #555;
 }
 
-.test {
-  background-color: red;
-  padding: 100px;
+.section-hero {
+  background-color: var(--primary_tint_1);
+  padding: 9.6rem 0;
+}
 
-  /* width: 1000px; */
-  max-width: 1000px;
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: var(--grey2);
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+/* primary+secondary buttons */
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  /* make background-color change smoother */
+  transition: background-color 0.3s;
+}
+
+/* priamry button */
+.btn-primary:link,
+.btn-primary:visited {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #cf711f;
+}
+
+/* secondary button */
+.btn-secondary:link,
+.btn-secondary:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+  background-color: #fdf2e9;
+
+  /* put border inside the element */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.margin-right-small {
+  /* helper class ready to be used on any element */
+  margin-right: 1.6rem !important;
 }
