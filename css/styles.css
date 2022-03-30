@@ -1,0 +1,47 @@
+/* 
+design settings:
+
+--- TYPOGRAPHY
+
+  Font sizes (px):
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+  Font weights:
+
+  Line heights:
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+--- SHADOWS
+
+--- BORDER-RADIUS
+
+--- WHITESPACE
+  Spacing system:
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/
+
+:root {
+  --primary: #e67e22;
+  --grey: #555;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.test {
+  background-color: red;
+  padding: 100px;
+
+  /* width: 1000px; */
+  max-width: 1000px;
+}
