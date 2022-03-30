@@ -104,16 +104,32 @@ body {
 
 /* ========================== HEADER ========================== */
 
+.logo {
+  height: 2.2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary_tint_1);
+
+  /* sticky = sticked to top = set height */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
 /* =========================== HERO =========================== */
 
 .section-hero {
   background-color: var(--primary_tint_1);
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 9.6rem 0;
 }
 
 .hero {
   max-width: 130rem;
   margin: 0 auto;
+  padding: 0 3.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
