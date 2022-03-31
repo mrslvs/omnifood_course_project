@@ -13,13 +13,18 @@ design settings:
     bold: 700
 
   Line heights used(default=1):
+    subheading: 0.75  
     small: 1.05
+    h2: 1.2
     <p>: 1.6
+  
+
 
 --- SHADOWS
 
 --- BORDER-RADIUS
   Default: 9px;
+
 --- WHITESPACE
   Spacing system:
     2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -49,19 +54,64 @@ body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: var(--grey);
+  color: var(--grey_dark_333);
 }
 
 /* ============================================================== */
 /* ========================== REUSABLE ========================== */
 /* ============================================================== */
+.container {
+  /* center */
+  max-width: 120rem;
+  padding: 0 3.2em;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* ============ HEADINGS ============ */
+
+.heading-primary,
+.heading-secondary {
+  font-weight: 700;
+  color: var(--grey_dark_333);
+  letter-spacing: -0.5px;
+}
 .heading-primary {
   font-size: 5.2rem;
-  font-weight: 700;
   line-height: 1.05;
-  color: var(--grey2);
-  letter-spacing: -0.5px;
   margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--primary_shade_1);
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
 }
 
 /* ============ BUTTONS ============ */
@@ -87,7 +137,7 @@ body {
 
 .btn-primary:hover,
 .btn-primary:active {
-  background-color: #cf711f;
+  background-color: var(--primary_shade_1);
 }
 
 /* secondary button */
@@ -228,4 +278,16 @@ body {
 .delivered-text span {
   color: var(--primary_shade_1);
   font-weight: 800;
+}
+
+/* =============================================================== */
+/* ========================= SECTION HOW ========================= */
+/* =============================================================== */
+
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.step-img {
+  width: 50%;
 }
