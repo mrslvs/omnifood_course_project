@@ -23,30 +23,6 @@ Local and organic: Our cooks only use local, fresh, and organic products to prep
 No waste: All our partners only use reusable containers to package all your meals.
 Pause anytime: Going on vacation? Just pause your subscription, and we refund unused days.
 
-### How Omnifood works
-
-[Show big app images]
-
-###
-
-### Sample meals
-
-Meal 1: Japanese Gyozas
-
-- Category: Vegetarian
-- Calories: 650
-- NutriScore (Registered): 74
-- Average rating: 4.9
-- Number reviews: 537
-
-Meal 2: Avocado Salad
-
-- Category: Vegan and Paleo
-- Calories: 400
-- NutriScore (Registered): 92
-- Average rating: 4.8
-- Number reviews: 441
-
 ### We offer a free sample meal
 
 [Create simple form for users to sign up]
@@ -77,11 +53,6 @@ Complete: $649 per month
 ### Customer testimonials
 
 [Photos of customers included]
-
-Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical. (Dave Bryson)
-The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore! (Ben Hadley)
-Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now! (Steve Miller)
-I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic. (Hannah Smith)
 
 ### Section with logos of featured publications [see images]
 
