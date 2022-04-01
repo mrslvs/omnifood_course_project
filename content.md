@@ -20,10 +20,6 @@ The smart 365-days-per-year food subscription that will make you eat healthy aga
 
 ### We offer a free sample meal
 
-[Create simple form for users to sign up]
-
-Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
-
 ### We have 2 pricing plans
 
 Prices include all applicable taxes. Users can cancel at any time.
