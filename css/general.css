@@ -56,6 +56,7 @@
 html {
   /* font size set to 10px (default font size is 16px -> 10/16=0.625 */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -63,6 +64,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: var(--grey_dark_333);
+
+  /* only works if nothign is positioned absolutely to the body tag */
+  overflow-x: hidden;
 }
 
 strong {
@@ -235,6 +239,7 @@ strong {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {

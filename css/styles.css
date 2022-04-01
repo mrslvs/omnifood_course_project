@@ -31,6 +31,8 @@
   /* sticky = sticked to top = set height */
   height: 9.6rem;
   padding: 0 4.8rem;
+
+  position: relative;
 }
 
 /* ============ NAVIGATION ============ */
@@ -38,7 +40,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -70,6 +72,25 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: var(--primary_shade_1);
+}
+
+/* mobile nav */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: var(--grey_dark_333);
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /* ============================================================ */
