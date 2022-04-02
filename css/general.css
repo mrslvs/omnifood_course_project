@@ -57,6 +57,9 @@ html {
   /* font size set to 10px (default font size is 16px -> 10/16=0.625 */
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* scroll behaviour not working on safari & edge => JS solution */
+  /* scroll-behavior: smooth; */
 }
 
 body {
